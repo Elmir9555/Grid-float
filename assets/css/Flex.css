@@ -1,0 +1,45 @@
+html
+{
+    background-color: rgb(1, 255, 255);
+}
+
+.head span
+{
+    display: inline-block;
+    border: 2px solid blue;
+    height: 40px;
+    width: 16.3%;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    background-color: yellow;
+
+}
+.body
+{
+    display: flex;
+    height: 500px;
+    margin-top: 30px;
+}
+.body .box1
+{
+ background-color: rgb(148, 148, 148);
+ color:rgb(1, 255, 255); 
+ width: 33.33%;
+}
+.body .box2
+{
+ background-color: yellow;
+ width: 33.33%;
+}
+.body .box3
+{
+    background-color: blue;
+    color: yellow;
+    width: 33.33%;       
+}
+.footer
+{
+    text-align: center;
+    color: red;
+}
